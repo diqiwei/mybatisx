@@ -18,7 +18,6 @@ public interface UserMapper extends BaseMapper<User> {
 
     int updateAgeAndNameByUid(@Param("age") Integer age, @Param("name") String name, @Param("uid") Long uid);
 
-    List<User> selectAgeAndNameByAgeBetween(@Param("beginAge") Integer beginAge, @Param("endAge") Integer endAge);
 }
 
 
